@@ -6,16 +6,30 @@ html {
 }
 body {
 	height: 100%;
-    font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 }
+	
 body, h1, h2, h3, h4, p, ul {
 	margin: 0;
 	padding: 0;
 }
+
 img {
     max-width: 100%;
     height: auto;
 	vertical-align: top;
+}
+
+.wrapper {
+	background-color: #473b3b;
+	height: 100%;
+}
+
+h1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 46px;
+	color: #fff;
 }
 
 .grid {

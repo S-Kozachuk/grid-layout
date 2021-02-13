@@ -106,8 +106,8 @@ Cвойство dispay: inline-grid создаёт контейнер
 	Можно комбинировать относительные(%) и 
 	фиксированные(px) значения.
 	*/
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 50% 50%;
+	grid-template-columns: 1fr 40% 1fr;
+	grid-template-rows: 2fr 1fr;
 }
 
 .grid__item {
@@ -115,3 +115,5 @@ Cвойство dispay: inline-grid создаёт контейнер
     text-align: center;
     border: 2px dashed rgba(255, 255, 255, 0.2);
 }
+
+* 

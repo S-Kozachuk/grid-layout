@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+}
+html { 
+	height: 100%;
+}
+body {
+	height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body, h1, h2, h3, h4, p, ul {
+	margin: 0;
+	padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+	vertical-align: top;
+}
+
+.grid {
+	display: grid;
+	margin: 0px 0px 20px 0px;
+	padding: 20px;
+	font-size: 30px;
+	background-color: #794f45;
+}

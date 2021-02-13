@@ -87,3 +87,16 @@ Cвойство dispay: inline-grid создаёт контейнер
 	font-size: 30px;
 	background-color: #77608d;
 }
+
+
+/* Lesson 2 */
+.grid__body {
+	display: inline-grid;
+
+}
+
+.grid__item {
+	padding: 20px;
+	text-align: center;
+	border: 2px dashed rgba(255, 255, 255, 0.2);
+}

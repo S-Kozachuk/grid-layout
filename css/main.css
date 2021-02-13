@@ -93,8 +93,17 @@ Cвойство dispay: inline-grid создаёт контейнер
 }
 
 /* Lesson 2 */
+.grid-main {
+	margin: 0px 0px 20px 0px;
+    padding: 20px;
+    font-size: 30px;
+    background-color: #794f45;
+}
+
 .grid__body {
-    display: inline-grid;
+	display: grid;
+	grid-template-columns: 30% 150px 50%;
+	grid-template-rows: 200px 200px;
 }
 
 .grid__item {

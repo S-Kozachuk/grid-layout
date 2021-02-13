@@ -25,3 +25,10 @@ img {
 	font-size: 30px;
 	background-color: #794f45;
 }
+
+.grid-inline {
+	display: inline-grid;
+	padding: 20px;
+	font-size: 30px;
+	background-color: #77608d;
+}

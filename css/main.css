@@ -102,8 +102,12 @@ Cвойство dispay: inline-grid создаёт контейнер
 
 .grid__body {
 	display: grid;
-	grid-template-columns: 30% 150px 50%;
-	grid-template-rows: 200px 200px;
+	/* 
+	Можно комбинировать относительные(%) и 
+	фиксированные(px) значения.
+	*/
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 50% 50%;
 }
 
 .grid__item {

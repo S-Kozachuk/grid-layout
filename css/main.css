@@ -104,9 +104,8 @@ Cвойство dispay: inline-grid создаёт контейнер
 	display: grid;
 	/* 
 	Можно комбинировать относительные(%) и 
-	фиксированные(px) значения.
-    */
-    /*
+    фиксированные(px) значения.
+    
     WARING! Minmax meaning is can't using with 
     fr measurement unit. This unit measurement (FR) 
     can use only as max-size for column.
@@ -123,12 +122,21 @@ Cвойство dispay: inline-grid создаёт контейнер
     grid-template-rows: 1fr 1fr;
     */
 
-    /* Max-width for column */
-    /*
+    /* Max-width for column.
     Use FIT-CONTENT operator for width limit
     */
-    grid-template-columns: auto 1fr auto;
+    /*
+    grid-template-columns: fit-content(200px) 1fr auto;
     grid-template-rows: 1fr 1fr;
+    */
+
+    /* (11:39) Properties write optimization. 
+    For shorten the property record cam use a
+    REPEAT operator. First value is count to colums or rows.
+    Second value is his size.
+    */
+    grid-template-columns: repeat(3, 200px); 
+    grid-template-rows: repeat(2, 1fr);
 
 }
 
@@ -137,5 +145,3 @@ Cвойство dispay: inline-grid создаёт контейнер
     text-align: center;
     border: 2px dashed rgba(255, 255, 255, 0.2);
 }
-
-* 

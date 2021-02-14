@@ -136,8 +136,21 @@ Cвойство dispay: inline-grid создаёт контейнер
     REPEAT operator. First value is count to colums or rows.
     Second value is his size.
     */
+    /*
     grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: repeat(2, 1fr);
+    */
+
+    /* (16:53) Shorten record - grid-template
+    */  
+    /*
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(2, 1fr);
+
+    Rows are indicated first, then columns
+    */
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr)
+
 }
 
 .grid__item {
@@ -150,11 +163,24 @@ Cвойство dispay: inline-grid создаёт контейнер
 
 .grid-wrapper {
     display: grid;
+
+    /* For shorten properties record in Area use opertor
+    [start]
+    */
+
+    /* Shorten record */
+    grid-template: 
+        [start] "header header" 100px [row2]
+        [row2] "side content" 1fr [row-end] / 150px 1fr;
+
+    /* Standart record */
+    /*
     grid-template-columns: 150px 1fr;
     grid-template-rows: 100px 1fr;
     grid-template-areas: 
         "header header"
         "side content";
+    */
 }
 
 .grid-header,

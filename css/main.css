@@ -86,7 +86,7 @@ Cвойство dispay: inline-grid создаёт контейнер
 находящемуся внутри контенту.
 */
 .grid-inline {
-    display: inline-grid;
+    display: grid;
     padding: 20px;
     font-size: 30px;
     background-color: #77608d;
@@ -94,6 +94,7 @@ Cвойство dispay: inline-grid создаёт контейнер
 
 /* Lesson 2 */
 .grid-main {
+    display: block;
 	margin: 0px 0px 20px 0px;
     padding: 20px;
     font-size: 30px;
@@ -135,13 +136,43 @@ Cвойство dispay: inline-grid создаёт контейнер
     REPEAT operator. First value is count to colums or rows.
     Second value is his size.
     */
-    grid-template-columns: repeat(3, 200px); 
+    grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: repeat(2, 1fr);
-
 }
 
 .grid__item {
     padding: 20px;
     text-align: center;
     border: 2px dashed rgba(255, 255, 255, 0.2);
+}
+
+/* (12:50) Area names. */
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 100px 1fr;
+    grid-template-areas: 
+        "header header"
+        "side content";
+}
+
+.grid-header,
+.grid-side,
+.grid-content {
+    padding: 30px;
+    border: 2px dashed rgba(255, 255, 255, 0.2);
+    margin-bottom: 15px;
+}
+
+.grid-header {
+
+}
+
+.grid-side {
+
+}
+
+.grid-content {
+
 }

@@ -166,13 +166,13 @@ Cвойство dispay: inline-grid создаёт контейнер
 }
 
 .grid-header {
-
+    grid-area: header;
 }
 
 .grid-side {
-
+    grid-area: side;
 }
 
 .grid-content {
-
+    grid-area: content;
 }

@@ -106,8 +106,8 @@ Cвойство dispay: inline-grid создаёт контейнер
 	Можно комбинировать относительные(%) и 
 	фиксированные(px) значения.
 	*/
-	grid-template-columns: 1fr 40% 1fr;
-	grid-template-rows: 2fr 1fr;
+	grid-template-columns: 200px minmax(150px, 1fr) 200px;
+	grid-template-rows: 1fr 1fr;
 }
 
 .grid__item {

@@ -208,7 +208,12 @@ Cвойство dispay: inline-grid создаёт контейнер
 .grid-auto {
     display: grid;
     grid-template: 1fr 1fr / repeat(3, 1fr);
+    grid-auto-rows: 200px;
 }
+
+/* 3-d row is refers to implicit grid */
+
+
 
 .grid-auto__item {
     padding: 30px;

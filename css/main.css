@@ -203,3 +203,16 @@ Cвойство dispay: inline-grid создаёт контейнер
     grid-area: content;
 }
 
+/* Implicit grid */
+
+.grid-auto {
+    display: grid;
+    grid-template: 1fr 1fr / repeat(3, 1fr);
+}
+
+.grid-auto__item {
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    border: 2px dashed rgba(255, 255, 255, 0.2);
+}

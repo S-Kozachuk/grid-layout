@@ -226,4 +226,17 @@ Cвойство dispay: inline-grid создаёт контейнер
 }
 
 /* (20:58) Automatic placement */
+.grid-masonry {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 200px;
+    /* Auto position: 3 value */
+    grid-auto-flow: dense;
+    counter-reset: item;
+}
 
+.grid-masonry__item_5{
+    grid-column: span 2;
+    grid-row: span 2;
+
+}

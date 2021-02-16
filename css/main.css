@@ -265,7 +265,19 @@ Cвойство dispay: inline-grid создаёт контейнер
 }
 
 .grid__item-3 {
+    /*margin: 30px;*/
     padding: 30px;
     text-align: center;
     border: 2px dashed rgba(255, 255, 255, 0.2);
+}
+
+/* Размещение элементов сетки с помощью линий сетки */
+
+.grid__item-3_1 {
+    grid-row-start: auto;
+    grid-row-end: auto ;
+    grid-column-start: auto;
+    grid-column-end: auto;
+
+    background-color: #794f45;
 }

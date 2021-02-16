@@ -243,6 +243,29 @@ Cвойство dispay: inline-grid создаёт контейнер
 
 /* Lesson 3 */
 
-.content {
+.wrapper-3 {
+    min-height: 100%;
+    overflow: hidden;
+    background-color: #473b3b;
+}
+
+.content-3 {
     padding: 30px 3%;
+}
+
+.grid-3 {
+    position: relative;
+    margin: 0px 0px 40px 0px;
+    font-size: 30px;
+}
+
+.grid__body-3 {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr)
+}
+
+.grid__item-3 {
+    padding: 30px;
+    text-align: center;
+    border: 2px dashed rgba(255, 255, 255, 0.2);
 }

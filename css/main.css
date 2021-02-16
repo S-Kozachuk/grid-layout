@@ -274,11 +274,15 @@ Cвойство dispay: inline-grid создаёт контейнер
 /* (1:58) Размещение элементов сетки с помощью линий сетки */
 
 .grid__item-3_1 {
-    grid-row-start: 1;
-    grid-row-end: 3;
+    grid-row-start: span 2;
+    grid-row-end: auto;
     grid-column-start: 1; /* Начать с 1-ой колонки */
-    grid-column-end: 3; /* Завершить на 3-ей колонке */
-
+    grid-column-end: auto; /* Завершить на 3-ей колонке */
     background-color: #794f45;
 }
 
+/* 
+C помощью свойств grid-row-start/end и grid-column-start/end
+удобно произвольно менять положение элемента и размер (кол-во
+занимаемых ячеек)
+*/

@@ -267,7 +267,6 @@ Cвойство dispay: inline-grid создаёт контейнер
 */
 
 .grid__item-3 {
-    /*margin: 30px;*/
     padding: 30px;
     text-align: center;
     border: 2px dashed rgba(255, 255, 255, 0.2);
@@ -293,11 +292,13 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 /* Позволяет в дальнейшем размещать элемент
 по имени данной линии */
 
+/*
 .grid__body-3 {
     display: grid;
     grid-template-rows: [start] 1fr [row2] 1fr [row-end];
     grid-template-columns: [start] 1fr [col2] 1fr [col3] 1fr [col-end];
 }
+*/
 
 /*
 .grid__item-3_1 {
@@ -320,6 +321,7 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 }
 */
 
+/*
 .grid__item-3_1 {
     background-color: #794f45;
     order: 3;
@@ -343,4 +345,16 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 
 .grid__item-3_6 {
     order: 2;
+}
+*/
+
+/* 7:50 Выравнивание элементов сетки */
+
+.grid__body-3 {
+    display: grid;
+    grid-template-rows: [start] 150px [row2] 150px [row-end];
+    grid-template-columns: [start] 1fr [col2] 1fr [col3] 1fr [col-end];
+
+    justify-items: start; /* выравнивание по горизонтали */
+    align-items: stretch; /* выравнивание по вертикали */
 }

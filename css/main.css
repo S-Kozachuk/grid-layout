@@ -349,12 +349,99 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 */
 
 /* 7:50 Выравнивание элементов сетки */
-
+/*
 .grid__body-3 {
     display: grid;
     grid-template-rows: [start] 150px [row2] 150px [row-end];
     grid-template-columns: [start] 1fr [col2] 1fr [col3] 1fr [col-end];
 
-    justify-items: start; /* выравнивание по горизонтали */
-    align-items: stretch; /* выравнивание по вертикали */
+    justify-items: start;
+    align-items: stretch;
+}
+*/
+/* 9:38 Отдельное выравнивание элементов сетки */
+/*
+.grid__item-3_1 {
+    justify-self: end;
+    align-self: stretch;
+}
+
+.grid__item-3_2 {
+    justify-self: start;
+    align-self: center;
+}
+
+.grid__item-3_3 {
+    justify-self: end;
+    align-self: stretch;
+}
+
+.grid__item-3_4 {
+    justify-self: end;
+    align-self: stretch;
+}
+
+.grid__item-3_5 {
+    justify-self: end;
+    align-self: stretch;
+}
+
+.grid__item-3_6 {
+    justify-self: stretch;
+    align-self: stretch;
+}
+*/
+
+/* 10:16 Выравнивание элементов сетки по центру ячейки */
+/*
+.grid__item-3_1 {
+    margin: auto;
+}
+
+.grid__item-3_2 {
+    margin: auto;
+}
+
+.grid__item-3_3 {
+    margin: auto;
+}
+
+.grid__item-3_4 {
+    margin: auto;
+}
+
+.grid__item-3_5 {
+    margin: auto;
+}
+
+.grid__item-3_6 {
+    margin: auto;
+}
+*/
+
+/* 10:30 Промежутки между элементами сетки */
+.grid__body-3 {
+    display: grid;
+    grid-template-rows: [start] 150px [row2] 150px [row-end];
+    grid-template-columns: [start] 1fr [col2] 1fr [col3] 1fr [col-end];
+
+    gap: 5%;
+}
+
+.grid__item-3_1 {
+}
+
+.grid__item-3_2 {
+}
+
+.grid__item-3_3 {
+}
+
+.grid__item-3_4 {
+}
+
+.grid__item-3_5 {
+}
+
+.grid__item-3_6 {
 }

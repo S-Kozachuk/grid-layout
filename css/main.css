@@ -312,10 +312,35 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 цифрами, либо именами линий"
 */
 
+/*
 .grid__item-3_1 {
     grid-row: start / row-end;
     grid-column: col3 / col3 ;
     background-color: #794f45;
 }
+*/
 
-/* 7:26 */
+.grid__item-3_1 {
+    background-color: #794f45;
+    order: 3;
+}
+
+.grid__item-3_2 {
+    order: 4;
+}
+
+.grid__item-3_3 {
+    order: 1;
+}
+
+.grid__item-3_4 {
+    order: 6;
+}
+
+.grid__item-3_5 {
+    order: 5;
+}
+
+.grid__item-3_6 {
+    order: 2;
+}

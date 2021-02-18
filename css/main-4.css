@@ -67,3 +67,123 @@ h3 {
     background-color: #473b3b;
     grid-template: minmax(100px, auto) 1fr minmax(70px, auto) 1fr / 1fr;
 }
+
+.header {
+    background-color: #794f45
+}
+
+.header__logo {
+
+}
+
+.header__menu {
+
+}
+
+.header__list {
+
+}
+
+.header__link {
+
+}
+
+.header__burger {
+
+}
+
+.main {
+
+}
+
+.sidebar {
+
+}
+
+.sidebar__menu {
+
+}
+
+.sidebar__list {
+
+}
+
+.sidebar__link {
+
+}
+
+.content {
+
+}
+
+.content__title {
+
+}
+
+.content__gallery {
+    
+}
+
+.gallery {
+
+}
+
+.gallery__title {
+
+}
+
+.gallery__items {
+
+}
+
+.gallery__item {
+
+}
+
+.gallery__item_big {
+
+}
+
+.content__products {
+
+}
+
+.products {
+
+}
+
+.products__title {
+
+}
+
+.products__items {
+
+}
+
+.products__item {
+
+}
+
+.products__image {
+
+}
+
+.products__name {
+
+}
+
+.products__button {
+
+}
+
+.footer {
+
+}
+
+.footer__copy {
+
+}
+
+.footer__text {
+
+}

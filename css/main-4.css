@@ -22,7 +22,7 @@ ul {
 }
 
 ul {
-    list-style-type: none;
+    list-style: none;
 }
 
 img {
@@ -59,7 +59,10 @@ h3 {
 }
 
 .wrapper {
+    display: grid;
     padding: 20px;
     min-height: 100%;
     background-color: #473b3b;
+
+    grid-template: ;
 }

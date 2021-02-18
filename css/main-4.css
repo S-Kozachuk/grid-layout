@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
 }
+
 html {
     height: 100%;
 }
+
 body {
     height: 100%;
     font-family: "Roboto Condensed", sans-serif;
@@ -33,7 +35,7 @@ img {
 
 a {
     margin-right: 10px;
-    color: #794f45;   
+    color: #794f45;
 }
 
 a:hover {
@@ -63,6 +65,5 @@ h3 {
     padding: 20px;
     min-height: 100%;
     background-color: #473b3b;
-
-    grid-template: ;
+    grid-template: minmax(100px, auto) 1fr minmax(70px, auto) 1fr / 1fr;
 }

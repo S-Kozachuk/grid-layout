@@ -66,9 +66,16 @@ h3 {
     min-height: 100%;
     background-color: #473b3b;
     grid-template: minmax(100px, auto) 1fr minmax(70px, auto) 1fr / 1fr;
+    grid-template-areas: 
+        "header"
+        "main"
+        "footer";
 }
 
 .header {
+    display: grid;
+    padding: 15px;
+    grid-area: header;
     background-color: #794f45
 }
 

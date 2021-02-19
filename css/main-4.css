@@ -91,6 +91,12 @@ h3 {
 }
 
 .header__list {
+ display: grid;
+ grid-auto-flow: column;
+ justify-items: end;
+}
+
+.header__list li {
 
 }
 

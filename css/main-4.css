@@ -74,6 +74,7 @@ h3 {
 
 .header {
     display: grid;
+    grid-template: 1fr / 1fr minmax(auto, 300px) minmax(auto, 1100px) 1fr;
     padding: 15px;
     grid-area: header;
     background-color: #794f45

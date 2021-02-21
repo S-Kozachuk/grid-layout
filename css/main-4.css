@@ -65,7 +65,7 @@ h3 {
     padding: 20px;
     min-height: 100%;
     background-color: #473b3b;
-    grid-template: minmax(100px, auto) 1fr minmax(70px, auto) 1fr / 1fr;
+    grid-template: minmax(100px, auto) 1fr minmax(70px, auto) / 1fr;
     grid-template-areas: 
         "header"
         "main"
@@ -74,13 +74,14 @@ h3 {
 
 .header {
     display: grid;
+    grid-area: header;
     grid-template: 1fr / 1fr minmax(auto, 300px) minmax(auto, 1100px) 1fr;
     padding: 15px;
-    grid-area: header;
-    background-color: #794f45
+    background-color: #794f45;
 }
 
 .header__logo {
+    grid-column: 2 / 3;
     width: 70px;
     height: 70px;
     border-radius: 50%;

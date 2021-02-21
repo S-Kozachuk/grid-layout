@@ -62,7 +62,6 @@ h3 {
 
 .wrapper {
     display: grid;
-    padding: 20px;
     min-height: 100%;
     background-color: #473b3b;
     grid-template: minmax(100px, auto) 1fr minmax(70px, auto) / 1fr;
@@ -77,6 +76,7 @@ h3 {
     grid-area: header;
     grid-template: 1fr / 1fr minmax(auto, 300px) minmax(auto, 1100px) 1fr;
     padding: 15px;
+    align-items: center;
     background-color: #794f45;
 }
 
@@ -89,7 +89,7 @@ h3 {
 }
 
 .header__menu {
-
+    grid-column: 3/4;
 }
 
 .header__list {

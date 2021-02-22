@@ -112,10 +112,17 @@ h3 {
 }
 
 .main {
-    grid-area: main;
     padding: 30px 15px;
-    display: grid;
-    grid-template: 1fr / 1fr minmax(auto, 300px) minmax(auto, 1100px) 1fr;
+}
+
+@media (min-width: 992px) {
+    
+    .main {
+        grid-area: main;
+        display: grid;
+        grid-template: 1fr / 1fr minmax(auto, 300px) minmax(auto, 1100px) 1fr;
+    }
+
 }
 
 .sidebar {

@@ -133,7 +133,8 @@ h3 {
 }
 
 .sidebar__link {
-
+    font-size: 20px;
+    color: #fff;
 }
 
 .content {

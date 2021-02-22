@@ -115,18 +115,8 @@ h3 {
     padding: 30px 15px;
 }
 
-@media (min-width: 992px) {
-    
-    .main {
-        grid-area: main;
-        display: grid;
-        grid-template: 1fr / 1fr minmax(auto, 300px) minmax(auto, 1100px) 1fr;
-    }
-
-}
-
 .sidebar {
-    grid-column: 2 / 3;
+    margin-bottom: 30px;
     padding: 30px 15px;
     background-color: #7a956b;
 }
@@ -159,6 +149,21 @@ h3 {
 
 .content__gallery {
     margin-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+    
+    .main {
+        grid-area: main;
+        display: grid;
+        grid-template: 1fr / 1fr minmax(auto, 300px) minmax(auto, 1100px) 1fr;
+    }
+
+    .sidebar {
+        grid-column: 2 / 3;
+        margin: 0;
+    }
+
 }
 
 .gallery {

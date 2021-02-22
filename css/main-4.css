@@ -202,6 +202,7 @@ h3 {
 .products__items {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 1fr;
     column-gap: 30px; /* отступ между колонками, по вертикали*/
     row-gap: 50px; /* отступ между строками, по горизонтали*/
 }

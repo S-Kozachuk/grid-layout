@@ -132,6 +132,10 @@ h3 {
 
 }
 
+.sidebar__list li {
+    margin-bottom: 15px;
+}
+
 .sidebar__link {
     font-size: 20px;
     color: #fff;

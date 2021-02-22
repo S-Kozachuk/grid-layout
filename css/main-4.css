@@ -119,7 +119,7 @@ h3 {
 }
 
 .sidebar {
-
+    grid-column: 2/3;
 }
 
 .sidebar__menu {
@@ -135,7 +135,7 @@ h3 {
 }
 
 .content {
-
+    
 }
 
 .content__title {

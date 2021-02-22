@@ -120,6 +120,8 @@ h3 {
 
 .sidebar {
     grid-column: 2 / 3;
+    padding: 15px;
+    background-color: #7a956b;
 }
 
 .sidebar__menu {
@@ -136,6 +138,7 @@ h3 {
 
 .content {
     grid-column: 3 / 4;
+    padding-left: 30px;
 }
 
 .content__title {

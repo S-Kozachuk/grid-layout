@@ -255,9 +255,9 @@ h3 {
 }
 
 .footer__copy {
-
+    grid-column: 2 / 3;
 }
 
 .footer__text {
-
+    grid-column: 3 / 4;
 }

@@ -120,7 +120,7 @@ h3 {
 
 .sidebar {
     grid-column: 2 / 3;
-    padding: 15px;
+    padding: 30px 15px;
     background-color: #7a956b;
 }
 

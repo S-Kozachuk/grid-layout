@@ -99,7 +99,7 @@ h3 {
 }
 
 .header__list li {
-
+    /* margin-right: 30px;*/
 }
 
 .header__link {
@@ -130,7 +130,7 @@ h3 {
 }
 
 .sidebar__list li {
-    margin-bottom: 15px;
+    margin-right: 30px;
 }
 
 .sidebar__link {

@@ -117,6 +117,11 @@ h3 {
         display: none;
     }
 
+    .header__menu {
+        display: grid;
+        justify-items: end;
+    }
+
     .header__burger {
         display: grid;
         width: 30px;

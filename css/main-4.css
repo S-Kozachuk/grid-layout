@@ -163,7 +163,8 @@ h3 {
 }
 
 .gallery__items {
-
+    display: grid;
+    gap: 10px;
 }
 
 .gallery__item {

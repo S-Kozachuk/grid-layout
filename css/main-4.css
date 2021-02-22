@@ -261,4 +261,5 @@ h3 {
 
 .footer__text {
     grid-column: 3 / 4;
+    text-align: right;
 }

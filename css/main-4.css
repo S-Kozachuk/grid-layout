@@ -235,7 +235,14 @@ h3 {
 }
 
 .products__button {
-
+    padding: 0px 20px;
+    justify-self: start;
+    letter-spacing: 2px; 
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 40px;
+    background-color: #77608d;
+    color: #fff;
 }
 
 .footer {

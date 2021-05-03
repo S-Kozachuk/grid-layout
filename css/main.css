@@ -300,13 +300,13 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 }
 */
 
-/*
-.grid__item-3_1 {
+
+.grid__item-3_2 {
     grid-row-start: row2;
-    grid-column-start: col2;
+    grid-column-start: col3;
     background-color: #794f45;
 }
-*/
+
 
 /* (6:31) Короткая запись свойств */
 /* Положение объекта указывается через "/"

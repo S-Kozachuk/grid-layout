@@ -149,8 +149,9 @@ Cвойство dispay: inline-grid создаёт контейнер
 
     Rows are indicated first, then columns
     */
-    grid-template: repeat(2, 1fr) / repeat(3, 1fr)
-
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 20px;
 }
 
 .grid__item {

@@ -86,7 +86,7 @@ Cвойство dispay: inline-grid создаёт контейнер
 находящемуся внутри контенту.
 */
 .grid-inline {
-    display: grid;
+    display: inline-grid;
     padding: 20px;
     font-size: 30px;
     background-color: #77608d;

@@ -92,6 +92,12 @@ Cвойство dispay: inline-grid создаёт контейнер
     background-color: #77608d;
 }
 
+.grid-all::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 /* Lesson 2 */
 .grid-main {
     display: block;

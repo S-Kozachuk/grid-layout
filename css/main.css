@@ -74,6 +74,7 @@ Cвойство dispay: grid создаёт контейнер
 */
 .grid {
     display: grid;
+    float: right;
     margin: 0px 0px 20px 0px;
     padding: 20px;
     font-size: 30px;
@@ -87,6 +88,7 @@ Cвойство dispay: inline-grid создаёт контейнер
 */
 .grid-inline {
     display: inline-grid;
+    float: left;
     padding: 20px;
     font-size: 30px;
     background-color: #77608d;

@@ -217,7 +217,7 @@ Cвойство dispay: inline-grid создаёт контейнер
 
 .grid-auto {
     display: grid;
-    grid-template: 1fr 1fr / repeat(3, 1fr);
+    grid-template: 1fr 1fr / repeat(7, 1fr);
     grid-auto-rows: 200px;
     grid-auto-columns: 400px;
     /* 

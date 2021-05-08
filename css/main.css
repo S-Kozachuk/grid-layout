@@ -461,7 +461,7 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 .grid-4 {
     display: grid;
     grid-template-columns: repeat(2, 100px);
-    grid-template-rows: minmax( (min-content 30px, 50px) 20px, auto);
+    grid-template-rows: 30px min-content 10px max-content 50px;
 }
 
 

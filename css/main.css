@@ -456,4 +456,13 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 .grid__item-3_6 {
 }
 
+/* Grid 4 */
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: minmax( (min-content 30px, 50px) 20px, auto);
+}
+
+
 /* Конец 3 - его урока */

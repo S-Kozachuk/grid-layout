@@ -464,5 +464,10 @@ C помощью свойств grid-row-start/end и grid-column-start/end
     grid-template-rows: 30px min-content 10px max-content 50px;
 }
 
+.grid__item-4 {
+    border: 2px dotted black;
+    background-color: #794f45;
+}
+
 
 /* Конец 3 - его урока */

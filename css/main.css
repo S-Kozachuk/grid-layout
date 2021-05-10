@@ -477,11 +477,25 @@ C помощью свойств grid-row-start/end и grid-column-start/end
     grid-template-columns: minmax(min-content, 150px) 1fr;
     grid-template-rows: minmax(min-content, 150px) 1fr 1fr;
     gap: 10px;
+    margin-bottom: 30px;
 }
 
 .grid__item-5 {
     border: 2px dashed black;
     background-color: #d89024;
+}
+
+/* Grid 6 */
+.grid-6 {
+    display: grid;
+    grid-template-columns: minmax(100px, min-content) minmax(500px, min-content);
+    grid-template-rows: minmax(100px, auto) 1fr 1fr;
+    gap: 10px;
+}
+
+.grid__item-6 {
+    border: 2px solid black;
+    background-color: #eb5b19;
 }
 
 /* Конец 3 - его урока */

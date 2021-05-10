@@ -498,4 +498,17 @@ C помощью свойств grid-row-start/end и grid-column-start/end
     background-color: #eb5b19;
 }
 
+/* Grid 7 */
+.grid-7 {
+    display: grid;
+    grid-template-columns: minmax(100px, min-content) minmax(500px, min-content);
+    grid-template-rows: minmax(100px, auto) 1fr 1fr;
+    gap: 10px;
+}
+
+.grid__item-7 {
+    border: 2px double black;
+    background-color: #af393f;
+}
+
 /* Конец 3 - его урока */

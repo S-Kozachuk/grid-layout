@@ -463,6 +463,7 @@ C помощью свойств grid-row-start/end и grid-column-start/end
     grid-template-columns: minmax(min-content, max-content) 1fr;
     grid-template-rows: repeat(3, 60px);
     gap: 10px;
+    margin-bottom: 30px;
 }
 
 .grid__item-4 {

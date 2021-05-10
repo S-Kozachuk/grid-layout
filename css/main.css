@@ -502,14 +502,14 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 /* Grid 7 */
 .grid-7 {
     display: grid;
-    grid-template-columns: minmax(100px, min-content) minmax(500px, min-content);
-    grid-template-rows: minmax(100px, auto) 1fr 1fr;
+    grid-template-columns: minmax(100px, 100px) minmax(100px, 100px);
+    grid-template-rows: repeat(3, 100px);
     gap: 10px;
     margin-bottom: 30px;
 }
 
 .grid__item-7 {
-    border: 2px double black;
+    border: 6px double black;
     background-color: #af393f;
 }
 

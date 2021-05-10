@@ -460,13 +460,14 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 
 .grid-4 {
     display: grid;
-    grid-template-columns: repeat(2, 100px);
-    grid-template-rows: 30px min-content 10px max-content 50px;
+    grid-template-columns: minmax(150px, 200px) 1fr;
+    grid-template-rows: repeat(3, 60px);
+    gap: 10px;
 }
 
 .grid__item-4 {
-    border: 2px dotted black;
-    background-color: #794f45;
+    border: 1px dotted black;
+    background-color: #4b9194;
 }
 
 

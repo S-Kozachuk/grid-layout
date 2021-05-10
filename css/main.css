@@ -526,8 +526,8 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 }
 
 .grid__item-8 {
-    border: 6px double black;
-    background-color: #af393f;
+    border: 6px groove black;
+    background-color: #e79d2f;
 }
 
 /* Конец 3 - его урока */

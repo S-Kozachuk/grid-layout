@@ -515,4 +515,18 @@ C помощью свойств grid-row-start/end и grid-column-start/end
     background-color: #af393f;
 }
 
+/* Grid 8 */
+.grid-8 {
+    display: grid;
+    grid-template-columns: auto, 250px;
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.grid__item-8 {
+    border: 6px double black;
+    background-color: #af393f;
+}
+
 /* Конец 3 - его урока */

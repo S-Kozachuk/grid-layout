@@ -460,7 +460,7 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 
 .grid-4 {
     display: grid;
-    grid-template-columns: minmax(150px, 200px) 1fr;
+    grid-template-columns: minmax(min-content, max-content) 1fr;
     grid-template-rows: repeat(3, 60px);
     gap: 10px;
 }

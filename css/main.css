@@ -565,6 +565,11 @@ C помощью свойств grid-row-start/end и grid-column-start/end
     margin-bottom: 30px;
 }
 
+.grid__item-11 {
+    border: 6px outset black;
+    background-color: #2091d3;
+}
+
 .grid-11-2 {
     display: grid;
     grid-template-rows: repeat(auto-fill, 50px);
@@ -573,9 +578,9 @@ C помощью свойств grid-row-start/end и grid-column-start/end
     margin-bottom: 30px;
 }
 
-.grid__item-11 {
+.grid__item-11-2 {
     border: 6px outset black;
-    background-color: #2091d3;
+    background-color: #3f667c;
 }
 
 /* Конец 3 - его урока */

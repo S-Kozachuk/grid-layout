@@ -543,4 +543,17 @@ C помощью свойств grid-row-start/end и grid-column-start/end
     background-color: #849e5b;
 }
 
+/* Grid 10 */
+.grid-10 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.grid__item-10 {
+    border: 6px inset black;
+    background-color: #76d8aa;
+}
+
 /* Конец 3 - его урока */

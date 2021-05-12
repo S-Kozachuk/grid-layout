@@ -559,8 +559,8 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 /* Grid 11 */
 .grid-11 {
     display: grid;
-    max-height: 1000px;
-    grid-template-rows: repeat(auto-fill, 100px);
+    grid-template-rows: repeat(auto-fill, 50px);
+    grid-template-columns: repeat(auto-fill, 100px);
     gap: 10px;
     margin-bottom: 30px;
 }

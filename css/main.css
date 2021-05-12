@@ -546,7 +546,7 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 /* Grid 10 */
 .grid-10 {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: fit-content(50%) fit-content(300px) 1fr;
     gap: 10px;
     margin-bottom: 30px;
 }

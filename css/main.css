@@ -559,7 +559,8 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 /* Grid 11 */
 .grid-11 {
     display: grid;
-    grid-template-columns: fit-content(50%) fit-content(300px) 1fr;
+    max-height: 1000px;
+    grid-template-rows: repeat(auto-fill, 100px);
     gap: 10px;
     margin-bottom: 30px;
 }

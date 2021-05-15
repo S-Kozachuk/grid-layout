@@ -585,15 +585,30 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 
 .grid-12 {
     display: grid;
-    grid-template-rows: repeat(2, 100px);
-    grid-template-columns: repeat(3, 100px);
+    grid-template-areas: "header header"
+                         "sidebar content"
+                         "sidebar content";
+
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-columns: 150px 1fr;
     gap: 10px;
     margin-bottom: 30px;
 }
 
-.grid__item-12 {
+.header {
+    grid-area: header;
     border: 3px dotted black;
     background-color: #ca76b5;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    border: 3px dotted black;
+}
+
+.content {
+    grid-area: content;
+    border: 3px dotted black;
 }
 
 /* Конец 3 - его урока */

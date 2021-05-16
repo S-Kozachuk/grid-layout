@@ -589,7 +589,7 @@ C помощью свойств grid-row-start/end и grid-column-start/end
                          "sidebar content"
                          "sidebar content";
 
-    grid-template-rows: 50px 50px 50px;
+    grid-template-rows: repeat(3, 50px);
     grid-template-columns: 150px 1fr;
     gap: 10px;
     margin-bottom: 30px;

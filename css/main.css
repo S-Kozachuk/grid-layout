@@ -604,6 +604,7 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 .sidebar {
     grid-area: sidebar;
     border: 3px dotted black;
+    background-color: #3289cf;
 }
 
 .content {

@@ -615,6 +615,7 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 
 .grid-13 {
     display: grid;
+    grid-template-areas: none;
     grid-auto-rows: 50px;
     grid-auto-columns: minmax(20px, 500px);
 }

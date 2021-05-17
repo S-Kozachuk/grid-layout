@@ -613,4 +613,15 @@ C помощью свойств grid-row-start/end и grid-column-start/end
     background-color: #e24a70;
 }
 
+.grid-13 {
+    display: grid;
+    grid-auto-rows: 50px;
+    grid-auto-columns: minmax(20px, 500px);
+}
+
+.grid__item-13 {
+    border: 6px outset black;
+    background-color: #67757e;
+}
+
 /* Конец 3 - его урока */

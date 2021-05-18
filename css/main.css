@@ -660,9 +660,9 @@ main {
 
 .grid-15 {
     display: grid;
-    grid-template-areas: "header header"
-                         "sidebar content"
-                         "sidebar content";
+    grid-template-areas: "header sidebar"
+                         "header sidebar"
+                         "content content";
     grid-template-columns: 150px 1fr;                        
     grid-template-rows: 50px 1fr 50px;
     margin-bottom: 30px;

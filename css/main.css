@@ -618,6 +618,7 @@ C помощью свойств grid-row-start/end и grid-column-start/end
     grid-template-areas: none;
     grid-auto-rows: 50px;
     grid-auto-columns: minmax(20px, 500px);
+    margin-bottom: 30px;
 }
 
 .grid__item-13 {

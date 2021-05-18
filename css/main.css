@@ -633,6 +633,7 @@ C помощью свойств grid-row-start/end и grid-column-start/end
                          "sidebar content";
     grid-template-columns: 150px 1fr;                        
     grid-template-rows: 50px 1fr 50px;
+    margin-bottom: 30px;
 }
 
 header {

@@ -668,4 +668,22 @@ main {
     margin-bottom: 30px;
 }
 
+.block-1 {
+    grid-area: header;
+    padding: 5px;
+    background-color: #c9ebb5;
+} 
+
+.block-2 {
+    grid-area: sidebar;
+    padding: 5px;
+    background-color: #BFA730;
+}
+
+.block-3 {
+    grid-area: content;
+    padding: 5px;
+    background-color: #bdc573;
+}
+
 /* Конец 3 - его урока */

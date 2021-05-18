@@ -637,16 +637,23 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 
 header {
     grid-area: header;
+    padding: 5px;
     background-color: brown;
 }
 
 aside {
     grid-area: sidebar;
+    padding: 5px;
     background-color: cadetblue;
+}
+
+aside>p {
+    padding-bottom: 5px;
 }
 
 main {
     grid-area: content;
+    padding: 5px;
     background-color: chocolate;
 }
 

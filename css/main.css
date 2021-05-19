@@ -691,4 +691,38 @@ main {
     color: black;
 }
 
+/* Grid-16 */
+.grid-16 {
+    display: grid;
+    grid-template-areas: "post-1 post-1 post-2"
+                         "post-1 post-1 post-3"
+                         "post-6 post-5 post-4";
+    grid-template-rows: repeat(3, 200px);
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.post-1 {
+    grid-area: post-1;
+    background-color: #5CCCCC;
+}
+.post-2 {
+    grid-area: post-2;
+    background-color: #FFD073;
+}
+.post-3 {
+    grid-area: post-3;
+    background-color: #6C8CD5;
+}
+.post-4 {
+    grid-area: post-4;
+    background-color: #BF8F30;
+}
+.post-5 {
+    grid-area: post-5;
+    background-color: #1D7373;
+}
+.post-6 {
+    grid-area: post-6;
+    background-color: #A64B00;
+}
 /* Конец 3 - его урока */

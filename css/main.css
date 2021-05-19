@@ -701,6 +701,10 @@ main {
     grid-template-columns: repeat(3, 1fr);
 }
 
+.grid-16-align {
+    text-align: center;
+}
+
 .post-1 {
     grid-area: post-1;
     background-color: #5CCCCC;

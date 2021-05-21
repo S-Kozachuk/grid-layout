@@ -737,6 +737,7 @@ main {
 .grid-17 {
     display: grid;
     grid-template: repeat(3, 200px)/repeat(3, 1fr);
+    margin-bottom: 30px;
 }
 
 .post-17-1 {
@@ -778,6 +779,13 @@ main {
     grid-column-start: 1;
     grid-column-end: 2;
     background-color: #ca86f1;
+}
+
+/* Grid - 17-v2 Краткая запись явной сетки. Вариант 2 */
+.grid-17-v2 {
+    display: grid;
+    grid-template: [start] "post-1 post-1 post-2" 200px [row2];
+    margin-bottom: 30px;
 }
 
 /* Конец 3 - его урока */

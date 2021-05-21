@@ -747,13 +747,37 @@ main {
     background: #5CCCCC;
     border: 1px solid rgb(211, 63, 63);
 }
+
 .post-2 {
     grid-row-start: 1;
     grid-row-end: 2;
     grid-column-start: 3;
     grid-column-end: 4;
-    background-color: #FFD073;
+    background-color: #d39a28;
 }
 
+.post-3 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: #92dd3d;
+}
+
+.post-4 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: #457ee7;
+}
+
+.post-5 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: #ca86f1;
+}
 
 /* Конец 3 - его урока */

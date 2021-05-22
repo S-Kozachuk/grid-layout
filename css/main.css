@@ -784,7 +784,9 @@ main {
 /* Grid - 17-v2 Краткая запись явной сетки. Вариант 2 */
 .grid-17-v2 {
     display: grid;
-    grid-template: [start] "post-1 post-1 post-2" 200px [row2];
+    grid-template: [start] "post-1 post-1 post-2" 200px [row2]
+                   [row2] "post-1 post-1 post-3" 200px [row2]
+                   [row2] "post-6 post-5 post-4" 200px [row-end] / 1fr 1fr 1fr;
     margin-bottom: 30px;
 }
 

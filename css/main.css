@@ -824,7 +824,7 @@ main {
 /* Grid - 18 Неявная сетка. Автоматические дорожки сетки. */
 .grid-18 {
     display: grid;
-    grid-template: repeat(3, 1fr) / repeat(3, 100px); 
+    grid-template: repeat(3, 50px) / repeat(3, 100px); 
     /* высота неявной дорожки в px*/
     grid-auto-rows: 50px;
 }

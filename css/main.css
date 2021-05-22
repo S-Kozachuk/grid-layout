@@ -828,6 +828,7 @@ main {
     grid-template: repeat(3, 50px) / repeat(3, 100px); 
     /* высота неявной дорожки в px*/
     grid-auto-rows: 50px;
+    margin-bottom: 30px;
 }
 
 .post-18-border {

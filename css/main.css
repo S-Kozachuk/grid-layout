@@ -785,9 +785,39 @@ main {
 .grid-17-v2 {
     display: grid;
     grid-template: [start] "post-1 post-1 post-2" 200px [row2]
-                   [row2] "post-1 post-1 post-3" 200px [row2]
-                   [row2] "post-6 post-5 post-4" 200px [row-end] / 1fr 1fr 1fr;
+                   [row2] "post-1 post-1 post-3" 200px [row3]
+                   [row3] "post-6 post-5 post-4" 200px [row-end] / 1fr 1fr 1fr;
     margin-bottom: 30px;
+}
+
+.post-17-v2-1 {
+    grid-area: post-1;
+    background-color: #e3e78a;
+}
+
+.post-17-v2-2 {
+    grid-area: post-2;
+    background-color: #e6987c;
+}
+
+.post-17-v2-3 {
+    grid-area: post-3;
+    background-color: #93a8cf;
+}
+
+.post-17-v2-4 {
+    grid-area: post-4;
+    background-color: #e2a996;
+}
+
+.post-17-v2-5 {
+    grid-area: post-5;
+    background-color: #58828a;
+}
+
+.post-17-v2-6 {
+    grid-area: post-6;
+    background-color: #8ed894;
 }
 
 /* Конец 3 - его урока */

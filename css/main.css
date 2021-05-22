@@ -874,16 +874,19 @@ main {
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 200px;
     grid-gap: 10px;
-    /* алгоритм автоматического размещения сетки */
+    /* 
+    Алгоритм автоматического размещения сетки. Изменяя значение
+    можно добиться различного расположения элементов сетки.
+    */
     grid-auto-flow: dense;
 }
 
-.post-19-5 {
+.post-19-1 {
     grid-column: span 2;
     grid-row: span 2;
 }
 
-.post-19-6 {
+.post-19-3 {
     grid-column: span 3;
     grid-row: span 2;
 }

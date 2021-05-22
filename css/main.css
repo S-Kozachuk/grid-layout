@@ -820,4 +820,17 @@ main {
     background-color: #8ed894;
 }
 
+/* Grid - 18 Неявная сетка. Автоматические дорожки сетки. */
+.grid-18 {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(3, 100px); 
+    /* высота неявной дорожки в px*/
+    grid-auto-rows: 50px;
+}
+
+.post-18-1 {
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
 /* Конец 3 - его урока */

@@ -95,7 +95,7 @@ Cвойство dispay: inline-grid создаёт контейнер
 }
 
 .grid-all::after {
-    content: '';
+    content: "";
     display: table;
     clear: both;
 }
@@ -103,15 +103,15 @@ Cвойство dispay: inline-grid создаёт контейнер
 /* Lesson 2 */
 .grid-main {
     display: block;
-	margin: 0px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
     padding: 20px;
     font-size: 30px;
     background-color: #794f45;
 }
 
 .grid__body {
-	display: grid;
-	/* 
+    display: grid;
+    /* 
 	Можно комбинировать относительные(%) и 
     фиксированные(px) значения.
     
@@ -150,7 +150,7 @@ Cвойство dispay: inline-grid создаёт контейнер
     */
 
     /* (16:53) Shorten record - grid-template
-    */  
+    */
     /*
     grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: repeat(2, 1fr);
@@ -184,13 +184,12 @@ Cвойство dispay: inline-grid создаёт контейнер
         [row2] "side content" 1fr [row-end] / 150px 1fr;
     */
     /* Standart record */
-    
+
     grid-template-columns: 150px 1fr;
     grid-template-rows: 100px 1fr;
-    grid-template-areas: 
+    grid-template-areas:
         "header header"
         "side content";
-    
 }
 
 .grid-header,
@@ -245,10 +244,9 @@ Cвойство dispay: inline-grid создаёт контейнер
     counter-reset: item;
 }
 
-.grid-masonry__item_5{
+.grid-masonry__item_5 {
     grid-column: span 2;
     grid-row: span 2;
-
 }
 
 /* Lesson 3 */
@@ -310,13 +308,11 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 }
 */
 
-
 .grid__item-3_2 {
     grid-row-start: row2;
     grid-column-start: col3;
     background-color: #794f45;
 }
-
 
 /* (6:31) Короткая запись свойств */
 /* Положение объекта указывается через "/"
@@ -585,9 +581,10 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 
 .grid-12 {
     display: grid;
-    grid-template-areas: "header header"
-                         "sidebar content"
-                         "sidebar content";
+    grid-template-areas:
+        "header header"
+        "sidebar content"
+        "sidebar content";
 
     grid-template-rows: repeat(3, 50px);
     grid-template-columns: 150px 1fr;
@@ -628,10 +625,11 @@ C помощью свойств grid-row-start/end и grid-column-start/end
 
 .grid-14 {
     display: grid;
-    grid-template-areas: "header header"
-                         "sidebar content"
-                         "sidebar content";
-    grid-template-columns: 150px 1fr;                        
+    grid-template-areas:
+        "header header"
+        "sidebar content"
+        "sidebar content";
+    grid-template-columns: 150px 1fr;
     grid-template-rows: 50px 1fr 50px;
     margin-bottom: 30px;
 }
@@ -648,7 +646,7 @@ aside {
     background-color: cadetblue;
 }
 
-aside>p {
+aside > p {
     padding-bottom: 5px;
 }
 
@@ -660,10 +658,11 @@ main {
 
 .grid-15 {
     display: grid;
-    grid-template-areas: "header sidebar"
-                         "header sidebar"
-                         "content content";
-    grid-template-columns: 150px 1fr;                        
+    grid-template-areas:
+        "header sidebar"
+        "header sidebar"
+        "content content";
+    grid-template-columns: 150px 1fr;
     grid-template-rows: 50px 1fr 100px;
     margin-bottom: 30px;
 }
@@ -672,12 +671,12 @@ main {
     grid-area: header;
     padding: 5px;
     background-color: #c9ebb5;
-} 
+}
 
 .block-2 {
     grid-area: sidebar;
     padding: 5px;
-    background-color: #BFA730;
+    background-color: #bfa730;
 }
 
 .block-3 {
@@ -694,9 +693,10 @@ main {
 /* Grid-16 */
 .grid-16 {
     display: grid;
-    grid-template-areas: "post-1 post-1 post-2"
-                         "post-1 post-1 post-3"
-                         "post-6 post-5 post-4";
+    grid-template-areas:
+        "post-1 post-1 post-2"
+        "post-1 post-1 post-3"
+        "post-6 post-5 post-4";
     grid-template-rows: repeat(3, 200px);
     grid-template-columns: repeat(3, 1fr);
     margin-bottom: 30px;
@@ -710,33 +710,33 @@ main {
 
 .post-1 {
     grid-area: post-1;
-    background-color: #5CCCCC;
+    background-color: #5ccccc;
 }
 .post-2 {
     grid-area: post-2;
-    background-color: #FFD073;
+    background-color: #ffd073;
 }
 .post-3 {
     grid-area: post-3;
-    background-color: #6C8CD5;
+    background-color: #6c8cd5;
 }
 .post-4 {
     grid-area: post-4;
-    background-color: #BF8F30;
+    background-color: #bf8f30;
 }
 .post-5 {
     grid-area: post-5;
-    background-color: #1D7373;
+    background-color: #1d7373;
 }
 .post-6 {
     grid-area: post-6;
-    background-color: #A64B00;
+    background-color: #a64b00;
 }
 
 /* Grid - 17 Краткая запись явной сетки */
 .grid-17 {
     display: grid;
-    grid-template: repeat(3, 200px)/repeat(3, 1fr);
+    grid-template: repeat(3, 200px) / repeat(3, 1fr);
     margin-bottom: 30px;
 }
 
@@ -745,7 +745,7 @@ main {
     grid-row-end: 3;
     grid-column-start: 1;
     grid-column-end: 3;
-    background: #5CCCCC;
+    background: #5ccccc;
     border: 1px solid rgb(211, 63, 63);
 }
 
@@ -785,9 +785,10 @@ main {
 .grid-17-v2 {
     display: grid;
     /* именованные линии сетки по вертикали*/
-    grid-template: [start] "post-3 post-5 post-2" 200px [row2]
-                   [row2] "post-4 post-1 post-1" 200px [row3]
-                   [row3] "post-6 post-1 post-1" 200px [row-end] / 1fr 1fr 1fr;
+    grid-template:
+        [start] "post-3 post-5 post-2" 200px [row2]
+        [row2] "post-4 post-1 post-1" 200px [row3]
+        [row3] "post-6 post-1 post-1" 200px [row-end] / 1fr 1fr 1fr;
     margin-bottom: 30px;
 }
 
@@ -825,7 +826,7 @@ main {
 /* Для ячейки post-7 автоматически создана неявная дорожка */
 .grid-18 {
     display: grid;
-    grid-template: repeat(3, 50px) / repeat(3, 100px); 
+    grid-template: repeat(3, 50px) / repeat(3, 100px);
     /* высота неявной дорожки в px*/
     grid-auto-rows: 50px;
     margin-bottom: 30px;
@@ -877,6 +878,14 @@ main {
     grid-auto-flow: dense;
 }
 
-.
+.post-19-5 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.post-19-6 {
+    grid-column: span 3;
+    grid-row: span 2;
+}
 
 /* Конец 3 - его урока */

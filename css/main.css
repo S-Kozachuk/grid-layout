@@ -898,4 +898,50 @@ main {
     object-fit: cover;
 } 
 
+/* Grid - 20. Краткая запись сетки. */
+/*
+Запись значений для всех свойств (grid-template, grid-template-areas, 
+auto-fill, auto-fit, repeat(), [], "name"), определяющих структуру и
+параметры сетки в рамках одного свойства - grid.
+*/
+.grid-20 {
+    display: grid;
+    grid: [one] 50px [two] 50px [three] 50px [four] / [first] 100px [second] 100px [third];
+    /* 
+    2-ой вариант, с автоматическим размещением столбцов (для
+    корректной работы отключить именование элементов сетки
+    */
+    /* grid: repeat(3, 50px [one two three four]) / auto-flow dense 30%;*/
+    margin-bottom: 30px;
+}
+
+.post-20-1 {
+    grid-row: two;
+    grid-column: first;
+}
+
+.post-20-2 {
+    grid-row: two;
+    grid-column: second;
+}
+
+.post-20-3 {
+    grid-row: one;
+    grid-column: first;
+}
+
+.post-20-4 {
+    grid-row: three;
+    grid-column: second;
+}
+
+.post-20-5 {
+    grid-row: three;
+    grid-column: first;
+}
+
+.post-20-6 {
+    
+}
+
 /* Конец 3 - его урока */

@@ -964,7 +964,7 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
 
 .item-21-2 {
     background-color: #d7e237;
-    align-items: center;
+    align-self: center;
 }
 
 .item-21-3 {
@@ -974,6 +974,7 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
 
 .item-21-4 {
     background-color: #d6555f;
+    align-self: self-end;
 }
 
 .item-21-5 {
@@ -984,6 +985,7 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
 .item-21-6 {
     background-color: #b0e2e2;
     margin: auto;
+    align-self: center
 }
 
 /* Конец 3 - его урока */

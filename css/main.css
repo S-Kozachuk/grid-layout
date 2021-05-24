@@ -978,6 +978,7 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
 
 .item-21-5 {
     background-color: #f59749;
+    align-self: flex-end;
 }
 
 .item-21-6 {

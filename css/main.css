@@ -953,18 +953,23 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
 .grid-21 {
     display: grid;
     grid: repeat(3, 100px) / repeat(2, 200px);
+    align-content: center;
 }
 
 .item-21-1 {
+    width: auto;
+    align-self: baseline;
     background-color: burlywood;
 }
 
 .item-21-2 {
     background-color: #d7e237;
+    align-items: center;
 }
 
 .item-21-3 {
     background-color: #5c8dc5;
+    align-self: center;
 }
 
 .item-21-4 {

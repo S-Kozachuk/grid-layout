@@ -949,4 +949,34 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
     grid-column: second;
 }
 
+/* Grid - 21. Элементы сетки. */
+.grid-21 {
+    display: grid;
+    grid: repeat(3, 100px) / repeat(2, 200px);
+}
+
+.item-21-1 {
+    background-color: burlywood;
+}
+
+.item-21-2 {
+    background-color: #d7e237;
+}
+
+.item-21-3 {
+    background-color: #5c8dc5;
+}
+
+.item-21-4 {
+    background-color: #d6555f;
+}
+
+.item-21-5 {
+    background-color: #f59749;
+}
+
+.item-21-6 {
+    background-color: #b0e2e2;
+}
+
 /* Конец 3 - его урока */

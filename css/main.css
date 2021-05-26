@@ -954,6 +954,7 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
     display: grid;
     grid: repeat(3, 100px) / repeat(2, 200px);
     align-content: center;
+    margin-bottom: 30px;
 }
 
 .item-21-1 {
@@ -991,40 +992,32 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
 /* Grid - 22. Размещение и переупорядочивание элементов сетки. */
 .grid-22 {
     display: grid;
-    grid: repeat(3, 100px) / repeat(2, 200px);
+    grid: repeat(3, 200px) / repeat(3, 1fr);
     align-content: center;
 }
 
 .item-22-1 {
-    width: auto;
-    align-self: baseline;
-    background-color: burlywood;
+    background-color: #837c72;
 }
 
 .item-22-2 {
     background-color: #d7e237;
-    align-self: center;
 }
 
 .item-22-3 {
     background-color: #5c8dc5;
-    align-self: center;
 }
 
 .item-22-4 {
     background-color: #d6555f;
-    align-self: self-end;
 }
 
 .item-22-5 {
     background-color: #f59749;
-    align-self: flex-end;
 }
 
 .item-22-6 {
     background-color: #b0e2e2;
-    margin: auto;
-    align-self: center
 }
 
 /* Конец 3 - его урока */

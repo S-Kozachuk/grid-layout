@@ -1023,10 +1023,15 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
 }
 
 .item-22-5 {
+    grid-row-start: 3;
+    grid-column-start: 2;
     background-color: #f59749;
+    
 }
 
 .item-22-6 {
+    grid-row-start: 3;
+    grid-column-start: 1;
     background-color: #b0e2e2;
 }
 

@@ -1048,6 +1048,12 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
     gap: 15px;
 }
 
+.item-23-pd {
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid white
+}
+
 .item-23-1{
     grid-row-start: start;
     grid-column-start: col3;

@@ -1087,36 +1087,36 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
 
   @keyframes span-1 {
     0% {transform:translate(0);}
-    50%{transform:translate(-50px, 0);border-color:#EE4D68}
+    50%{transform:translate(-100px, 0);border-color:#EE4D68}
     100%{transform:translate(0);}}
 
   @keyframes span-2 {
     0%{transform:translate(0);}
-    50%{transform:translate(50px, 0);border-color:#875678}
+    50%{transform:translate(100px, 0);border-color:#875678}
     100%{transform:translate(0);}}
 
   @keyframes span-3 {
     0%{transform:translate(0);}
-    50%{transform:translate(0, -50px);border-color:#FF9900}
+    50%{transform:translate(0, -100px);border-color:#FF9900}
     100%{transform:translate(0);}}
 
   @keyframes span-4 {
     0%{transform:translate(0);}
-    50%{transform:translate(0, 50px);border-color:#00E4F6}
+    50%{transform:translate(0, 100px);border-color:#00E4F6}
     100%{transform:translate(0);}}
 
   .loader {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     position: relative;
-    top: 150px;
+    top: 120px;
     left: 300px;
-    animation: loader 2s infinite ease-in-out;
+    animation: loader 10s infinite ease-in-out;
   }
 
   .loader span {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     position: absolute;
     left: 0;
     top: 0;

@@ -995,6 +995,7 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
     grid: repeat(3, 200px) / repeat(3, 1fr);
     align-content: center;
     gap: 10px;
+    margin-bottom: 30px;
 }
 
 .item-22-1 {

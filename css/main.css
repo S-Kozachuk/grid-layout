@@ -1066,6 +1066,7 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
 .item-23-4 {
     grid-row-start: span 2;
     grid-column-start: span 2;
+    background-color: #807272;
 }
 
 .item-23-5{

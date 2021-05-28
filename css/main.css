@@ -1045,6 +1045,7 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
     grid-template-rows: [start] 200px [row2] 200px [row3] 200px [row-end];
     /* размещение именованных колонок с указанием размеров */
     grid-template-columns: [start] 1fr [col2] 1fr [col3] 1fr [col-end];
+    gap: 15px;
 }
 
 .item-23-1{

@@ -1047,9 +1047,25 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
     grid-template-columns: [start] 1fr [col2] 1fr [col3] 1fr [col-end];
 }
 
-.item-23-1 {
+.item-23-1{}
+
+.item-23-2{
+    grid-row-start: start;
+    grid-column-start: col2;
+}
+
+.item-23-3{}
+
+.item-23-4 {
     grid-row-start: span 2;
     grid-column-start: span 2;
+}
+
+.item-23-5{}
+
+.item-23-6 {
+    grid-row-start: start;
+    grid-column-start: start;
 }
 
 /* Конец 3 - его урока */

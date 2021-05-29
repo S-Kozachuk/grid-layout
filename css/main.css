@@ -1161,8 +1161,12 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
 }
 
 .item-24-style {
-    border-radius: 3px;
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
 }
 
 .item-24-1 {

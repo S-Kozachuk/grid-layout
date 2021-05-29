@@ -1155,7 +1155,7 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
 .grid-24 {
     display: grid;
     grid-template-rows: [start] 200px [row2] 200px [row3] 200px [row4] 100px [row-end];
-    grid-template-columns: [start] 1fr [col2] 1fr [col-end];
+    grid-template-columns: [start] 1fr [col2] 1fr [col3] 1fr [col-end];
     gap: 10px;
     margin-bottom: 30px;    
 }
@@ -1170,14 +1170,15 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
 }
 
 .item-24-1 {
-    /*
-    grid-row: row2;
-    grid-column: start / col-end;
-    */
+    /* Комбинированные значения: номер линии для строки 
+    и название линии для колонки */
+    grid-row: 2;
+    grid-column: col3;
 }
 
 .item-24-2 {
-    grid-area: start / start / row3 / col-end
+    /* Указаны все 4-ре значения для свойства grid-area */
+    grid-area: start / start / row3 / col3
 }
 
 .item-24-3 {

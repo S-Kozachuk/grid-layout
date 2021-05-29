@@ -1050,8 +1050,14 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
 
 .item-23-pd {
     padding: 5px;
+    display: flex;
     border-radius: 10px;
     border: 2px solid white
+}
+
+.item-23-al {
+    justify-content: center;
+    align-items: center;
 }
 
 .item-23-1{

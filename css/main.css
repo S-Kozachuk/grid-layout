@@ -1119,9 +1119,9 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
   .loader {
     width: 100px;
     height: 100px;
-    position: relative;
-    top: 120px;
-    left: 300px;
+    position: absolute;
+    top: 35%;
+    left: 45%;
     animation: loader 10s infinite ease-in-out;
   }
 

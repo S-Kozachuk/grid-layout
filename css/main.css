@@ -1057,11 +1057,6 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
     border: 2px solid white
 }
 
-.item-23-al {
-    justify-content: center;
-    align-items: center;
-}
-
 .item-23-1{
     grid-row-start: start;
     grid-column-start: col3;

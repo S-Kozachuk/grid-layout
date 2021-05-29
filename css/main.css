@@ -1160,6 +1160,11 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
     margin-bottom: 30px;    
 }
 
+.item-24-style {
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
 .item-24-1 {
     grid-row: row2 / row-end;
     grid-column: col2 / col-end;

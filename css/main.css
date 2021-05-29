@@ -1155,13 +1155,14 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
 .grid-24 {
     display: grid;
     grid-template-rows: [start] 200px [row2] 200px [row3] 200px [row-end];
-    grid-template-columns: [start] 1fr [col2] 1fr [col3] 1fr [col-end];
+    grid-template-columns: [start] 1fr [col2] 1fr [col-end];
     gap: 10px;
     margin-bottom: 30px;    
 }
 
 .item-24-1 {
-
+    grid-row: row2 / row-end;
+    grid-column: col2 / col-end;
 }
 
 .item-24-2 {

@@ -1248,9 +1248,6 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
 }
 
 .item-26-style {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: 2px solid #aceaf5;
     border-radius: 10px;
     font-size: 20px;

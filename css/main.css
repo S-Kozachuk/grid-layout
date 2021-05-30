@@ -1199,4 +1199,13 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
     margin-bottom: 30px;    
 }
 
+.item-25-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #aceaf5;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
 /* Конец 3 - его урока */

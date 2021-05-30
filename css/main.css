@@ -1209,26 +1209,32 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
 }
 
 .item-25-1 {
+    order: 6;
     background-color: #55e2e2;
 }
 
 .item-25-2 {
+    order: 3;
     background-color: #a3eca0;
 }
 
 .item-25-3 {
+    order: 4;
     background-color: #7c3b3b;
 }
 
 .item-25-4 {
+    order: 1;
     background-color: #f0b865;
 }
 
 .item-25-5 {
+    order: 2;
     background-color: #a0b972;
 }
 
 .item-25-6 {
+    order: 5;
     background-color: #6577c7da;
 }
 /* Конец 3 - его урока */

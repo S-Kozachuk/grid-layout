@@ -1244,7 +1244,7 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
     grid-template-rows: repeat(3, 200px);
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    margin-bottom: 100px;    
+    margin-bottom: 100px;   
 }
 
 .item-26-style {
@@ -1254,6 +1254,8 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
 }
 
 .item-26-1 {
+    align-self: center;
+    justify-self: center;
     background-color: #55e2e2;
 }
 

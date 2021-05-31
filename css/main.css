@@ -1260,8 +1260,8 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
 }
 
 .item-26-2 {
-    align-self: center;
-    justify-self: center;
+    align-self: baseline;
+    justify-self: flex-start;
     background-color: #a3eca0;
 }
 

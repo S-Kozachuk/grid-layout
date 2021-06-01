@@ -1284,8 +1284,8 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
 }
 
 .item-26-6 {
-    align-self: center;
-    justify-self: center;
+    align-self: stretch;
+    justify-self: end;
     background-color: #6577c7da;
 }
 

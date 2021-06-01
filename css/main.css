@@ -1279,7 +1279,7 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
 
 .item-26-5 {
     align-self: center;
-    justify-self: center;
+    justify-self: stretch;
     background-color: #a0b972;
 }
 

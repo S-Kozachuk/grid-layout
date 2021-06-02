@@ -1308,4 +1308,74 @@ auto-fill, auto-fit, repeat(), [], "name"), определяющих струк�
     background-color: #d38e3fda;
 }
 
+/* Grid-27. Выравнивание элементов сетки и промежутки между элементами. */
+.grid-27 {
+    display: grid;
+    grid-template-rows: repeat(3, 200px);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 100px;
+    border: 3px solid #f5b56c;
+}
+
+.item-27-style {
+    padding: 5px;
+    border: 2px solid #aceaf5;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.item-27-1 {
+    align-self: center;
+    justify-self: center;
+    background-color: #55e2e2;
+}
+
+.item-27-2 {
+    align-self: baseline;
+    justify-self: flex-start;
+    background-color: #a3eca0;
+}
+
+.item-27-3 {
+    align-self: flex-start;
+    justify-self: flex-end;
+    background-color: #7c3b3b;
+}
+
+.item-27-4 {
+    align-self: end;
+    justify-self: start;
+    background-color: #f0b865;
+}
+
+.item-27-5 {
+    align-self: center;
+    justify-self: stretch;
+    background-color: #a0b972;
+}
+
+.item-27-6 {
+    align-self: stretch;
+    justify-self: end;
+    background-color: #6577c7da;
+}
+
+.item-27-7 {
+    align-self: end;
+    justify-self: center;
+    background-color: #75a18fda;
+}
+
+.item-27-8 {
+    margin: auto;
+    background-color: #a39f9fda;
+}
+
+.item-27-9 {
+    align-self: start;
+    justify-self: center;
+    background-color: #d38e3fda;
+}
+
 /* Конец 3 - его урока */
